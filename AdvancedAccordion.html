@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="Scripts/accordion.js"></script>
+    <link href="Style/stylesheet.css" rel="stylesheet" />
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+<a class="back" href="home.html">&#10162;</a>
+<div class="header">
+    <h2><a id="toggleall" >News Details</a></h2>
+    <br/>
+</div>
+ 
+<div class="container" id="listcontainer">
+  <div class="panel-group " id="accordion-sample" >      
+        <div class= "panel panel-default row" id="gray">            
+            <div class="panel-heading" >      
+                    <div onclick="onClickLink(0)" class="panel-toggle" data-toggle="collapse" data-parent="#accordion-sample" href="#accordion0" id="image" >
+                           <img class="thumbs" >
+                           <div class="span"><img  class="images" alt="Popup" ><div  class="caption" ></div>
+                           </div>
+                    </div>
+                   <div class="panel-title">
+                       <h3>
+                           <a onclick="onClickLink(0)" data-toggle="collapse" data-parent="#accordion-sample" href="#accordion0"></a>
+                        </h3>
+                   </div>
+             </div>
+                   <div id="accordion0" class="panel-collapse in">
+                       <p class="panel-body">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisLorem ipsum dolor sit amet, consectetur adipisicing elit...
+                           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...<a onclick="popupImage()">more</a>
+                       </p>
+                   </div> 
+        </div>
+    
+        <div class= "panel panel-default row" id="white">
+                <div class="panel-heading"  >
+                    <div onclick="onClickLink(1)" class="panel-toggle" data-toggle="collapse" data-parent="#accordion-sample" href="#accordion1" id="image" >
+                        <img class="thumbs">
+                        <div class="span"><img  class="images" alt="Popup"><div class="caption"> </div>
+                        </div>
+                    </div>
+                    <div class="panel-title">
+                        <h3>
+                        <a onclick="onClickLink(1)" data-toggle="collapse" data-parent="#accordion-sample" href="#accordion1"> </a>
+                        </h3>
+                    </div>
+                </div>
+                <div id="accordion1" class="panel-collapse collapse">
+                        <p class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...<a onclick="popupImage()">more</a>
+                        </p>
+                </div>
+         </div>
+     
+        <div class= "panel panel-default row" id="gray" >
+               <div class="panel-heading" >      
+                    <div onclick="onClickLink(2)" class="panel-toggle" data-toggle="collapse" data-parent="#accordion-sample" href="#accordion2" id="image" >
+                        <img class="thumbs">
+                        <div class="span"><img  class="images" alt="Popup" ><div  class="caption" ></div>
+                        </div>
+                    </div>
+                    <div class="panel-title">
+                        <h3>
+                        <a onclick="onClickLink(2)" data-toggle="collapse" data-parent="#accordion-sample" href="#accordion2"></a>
+                        </h3>
+                    </div>
+                </div>
+                <div id="accordion2" class="panel-collapse collapse">  
+                        <p class="panel-body">	Lorem ipsum dolor sit amet, consectetur adipisicingLorem ipsum dolor sit amet, consectetur adipisicingLorem ipsum dolor sit amet, consectetur adipisicingLorem ipsum dolor sit amet, consectetur adipisicingLorem ipsum dolor sit amet, consectetur adipisicingLorem ipsum dolor sit amet, consectetur adipisicingLorem ipsum dolor sit amet, consectetur adipisicing elit...
+                        Ut enim ad minim veniam, quis nostrud exercitation  Ut enim ad minim veniam, quis nostrut enim ad minim veniam, quis nostrud exercitation  Ut enim ad minim veniam, quis nostrut enim ad minim veniam, quis nostrud exercitation  Ut enim ad minim veniam, quis nostrud exercitation Ut enim ad minim veniam, quis nostrud exercitation Ut enim ad minim veniam, quis nostrud exercitation Ut enim ad minim veniam, quis nostrud exercitation Ut enim ad minim veniam, quis nostrud exercitation Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris laboris laborislaborislaborislaboris...<a onclick="popupImage()">more</a>
+                        </p>
+                </div>
+        </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center" style="clear:both">
+    <p>Website Made By <a href="#">Mahmoud Awny</a> </br> <a href="#">COPYRIGHTS RESERVED</a></p>
+</footer>
+
+</body>
+</html>
+
